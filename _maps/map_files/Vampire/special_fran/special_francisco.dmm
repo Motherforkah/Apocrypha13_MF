@@ -792,7 +792,9 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
-/turf/closed/wall/vampwall/bar,
+/obj/item/bedsheet/medical,
+/obj/structure/bed,
+/turf/open/floor/city/circled/large,
 /area/vtm/interior/church/staff)
 "aBC" = (
 /obj/effect/turf_decal/siding/white,
@@ -833,11 +835,10 @@
 /turf/open/floor/carpet/darkpack/blacksilver,
 /area/vtm/interior/hotel)
 "aCD" = (
-/obj/structure/extinguisher_cabinet/directional/west,
-/obj/effect/turf_decal/trimline/red/warning{
-	dir = 8
-	},
-/turf/open/floor/wood/ornate,
+/obj/structure/table/wood,
+/obj/structure/table/wood/fancy/black,
+/obj/item/book/bible,
+/turf/open/floor/city/church,
 /area/vtm/interior/church/staff)
 "aCI" = (
 /obj/structure/arc{
@@ -1039,7 +1040,7 @@
 /obj/structure/chair/comfy/darkpack{
 	dir = 8
 	},
-/turf/open/floor/wood/ornate,
+/turf/open/floor/carpet/royalblack,
 /area/vtm/interior/church/staff)
 "aGV" = (
 /turf/open/floor/plating/sidewalk,
@@ -1155,8 +1156,11 @@
 /turf/open/misc/grass,
 /area/vtm/outside/financialdistrict)
 "aKa" = (
-/obj/structure/table,
-/turf/open/floor/concrete/pavement,
+/obj/structure/vampdoor/wood,
+/obj/effect/mapping_helpers/door/access/church,
+/obj/effect/mapping_helpers/door/lock_difficulty/seven,
+/obj/effect/mapping_helpers/door/lock,
+/turf/open/floor/city/circled/large,
 /area/vtm/interior/church/staff)
 "aKg" = (
 /obj/machinery/light/directional/west,
@@ -1403,8 +1407,12 @@
 /turf/open/water/beach/vamp,
 /area/vtm/voivodate)
 "aSg" = (
-/obj/item/kirbyplants/organic/plant1,
-/turf/open/floor/carpet,
+/obj/item/kirbyplants/organic/plant1{
+	pixel_x = 6;
+	pixel_y = 14
+	},
+/obj/structure/table/wood,
+/turf/open/floor/city/plating_mono,
 /area/vtm/interior/church/staff)
 "aSs" = (
 /obj/structure/railing{
@@ -1693,7 +1701,7 @@
 /area/vtm/voivodate)
 "baL" = (
 /obj/machinery/light/warm/directional/south,
-/turf/open/floor/carpet,
+/turf/open/floor/city/plating_mono,
 /area/vtm/interior/church/staff)
 "baP" = (
 /obj/structure/table,
@@ -2801,8 +2809,15 @@
 /turf/closed/wall/vampwall/painted,
 /area/vtm/interior/bianchiBank)
 "bFC" = (
-/mob/living/carbon/human/npc/hobo,
-/turf/open/floor/concrete/pavement,
+/obj/structure/sink/directional/south,
+/obj/structure/mirror/directional/north{
+	pixel_y = 35
+	},
+/obj/machinery/light/small/directional/north{
+	pixel_x = 11;
+	pixel_y = 20
+	},
+/turf/open/floor/city/toilet/large,
 /area/vtm/interior/church/staff)
 "bFF" = (
 /obj/structure/table/wood/fancy/royalblack,
@@ -3129,8 +3144,11 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/restricted)
 "bPB" = (
-/obj/machinery/light/small/broken/directional/south,
-/turf/open/floor/city/plating_mono,
+/obj/structure/closet/crate/bin{
+	pixel_x = 3;
+	pixel_y = 6
+	},
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "bPF" = (
 /obj/effect/turf_decal/siding/white/corner,
@@ -3882,8 +3900,8 @@
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/voivodate)
 "cle" = (
-/obj/machinery/light/warm/directional/north,
-/turf/open/floor/wood/smooth/old,
+/obj/machinery/washing_machine,
+/turf/open/floor/city/toilet/large,
 /area/vtm/interior/church/staff)
 "clg" = (
 /obj/structure/sink/directional/south,
@@ -4417,8 +4435,8 @@
 /turf/open/floor/wood/old,
 /area/vtm/interior/chantry)
 "cBX" = (
-/obj/structure/filingcabinet,
-/turf/open/floor/carpet/royalblack,
+/obj/structure/sink/directional/north,
+/turf/open/floor/city/bacotell,
 /area/vtm/interior/church/staff)
 "cCa" = (
 /obj/structure/fireplace,
@@ -5069,9 +5087,7 @@
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/radio)
 "cSj" = (
-/obj/structure/chair/sofa/corp/right{
-	dir = 8
-	},
+/obj/structure/chair/sofa/corp/left,
 /turf/open/floor/carpet,
 /area/vtm/interior/church/staff)
 "cSQ" = (
@@ -5409,9 +5425,11 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/chinatown)
 "dcP" = (
-/obj/structure/table/wood/fancy/black,
-/obj/item/flashlight/lamp/green,
-/turf/open/floor/carpet/royalblack,
+/obj/structure/extinguisher_cabinet/directional/north,
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 1
+	},
+/turf/open/floor/city/church,
 /area/vtm/interior/church/staff)
 "dda" = (
 /obj/structure/chair/stool/bar/darkpack{
@@ -5682,13 +5700,12 @@
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/sewer)
 "dnc" = (
-/obj/structure/vampdoor/wood{
-	dir = 4
+/obj/effect/turf_decal/siding{
+	dir = 5
 	},
-/obj/effect/mapping_helpers/door/access/church,
-/obj/effect/mapping_helpers/door/lock,
-/obj/effect/mapping_helpers/door/lock_difficulty/seven,
-/turf/open/floor/city/circled/large,
+/obj/machinery/shower/directional/east,
+/obj/structure/curtain,
+/turf/open/floor/city/toilet/large,
 /area/vtm/interior/church/staff)
 "dnd" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -7376,7 +7393,7 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/anarch/basement)
 "epL" = (
-/obj/machinery/light/small/broken/directional/east,
+/obj/machinery/light/small/directional/east,
 /turf/open/openspace,
 /area/vtm/interior/church/staff)
 "epX" = (
@@ -7578,10 +7595,14 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/mallarcade)
 "evs" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/head/chaplain/bishopmitre,
-/obj/item/clothing/suit/chaplainsuit/bishoprobe,
-/turf/open/floor/wood/ornate,
+/obj/structure/table/modern,
+/obj/item/vampirebook/bible{
+	pixel_y = 3;
+	anchored = 1;
+	pixel_x = 0
+	},
+/obj/structure/table/wood/fancy/black,
+/turf/open/floor/city/church,
 /area/vtm/interior/church/staff)
 "evw" = (
 /obj/effect/turf_decal/bordur{
@@ -7852,13 +7873,10 @@
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/apartment)
 "eEh" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 9
-	},
-/obj/structure/chair/sofa/city_bench/wood/right{
+/obj/structure/chair/sofa/city_bench/wood/left{
 	dir = 4
 	},
-/turf/open/floor/concrete/pavement,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "eEv" = (
 /obj/effect/turf_decal/siding/white{
@@ -8166,8 +8184,11 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "eOY" = (
-/obj/structure/bookcase/random/religion,
-/turf/open/floor/wood/ornate,
+/obj/structure/bookcase/random/religion{
+	pixel_x = 0;
+	pixel_y = 13
+	},
+/turf/open/floor/city/church,
 /area/vtm/interior/church/staff)
 "ePu" = (
 /obj/structure/table/wood,
@@ -9751,9 +9772,9 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/millennium_tower)
 "fDF" = (
-/obj/machinery/washing_machine{
-	pixel_x = -6;
-	pixel_y = 7
+/obj/structure/toilet{
+	pixel_x = 0;
+	pixel_y = 12
 	},
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/church/staff)
@@ -10045,10 +10066,11 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower)
 "fMg" = (
-/obj/structure/chair/sofa/city_bench/wood/right{
+/obj/structure/coclock,
+/obj/structure/chair/sofa/city_bench/wood/left{
 	dir = 8
 	},
-/turf/open/floor/concrete/pavement,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "fMo" = (
 /obj/effect/turf_decal/bordur/corner{
@@ -10790,7 +10812,7 @@
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/voivodate)
 "gjp" = (
-/obj/structure/closet,
+/obj/machinery/light/warm/directional/south,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "gjr" = (
@@ -11022,6 +11044,7 @@
 /area/vtm/interior/chantry)
 "gqN" = (
 /obj/fusebox,
+/obj/machinery/light/directional/east,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/church/staff)
 "gqY" = (
@@ -11710,8 +11733,8 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/mallclothes)
 "gKr" = (
-/obj/effect/turf_decal/siding/thinplating/dark,
-/turf/open/floor/concrete/pavement,
+/obj/structure/table/countertop/fastfood/addon1,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "gKz" = (
 /obj/structure/lamppost/one{
@@ -11956,13 +11979,11 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/millennium_tower/f4)
 "gQx" = (
-/obj/structure/table/wood,
-/obj/structure/fluff/tv/news{
-	dir = 4;
-	pixel_x = 0;
-	pixel_y = 8
+/obj/structure/extinguisher_cabinet/directional/east,
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 4
 	},
-/turf/open/floor/carpet,
+/turf/open/floor/city/bacotell,
 /area/vtm/interior/church/staff)
 "gQD" = (
 /obj/structure/vampdoor/wood{
@@ -12399,8 +12420,12 @@
 /turf/open/misc/dirt,
 /area/vtm/voivodate)
 "hco" = (
-/obj/item/kirbyplants/fern,
-/turf/open/floor/carpet,
+/obj/item/kirbyplants/fern{
+	pixel_x = 8;
+	pixel_y = 15
+	},
+/obj/structure/table/wood,
+/turf/open/floor/city/plating_mono,
 /area/vtm/interior/church/staff)
 "hcw" = (
 /obj/effect/turf_decal/bordur/inverse{
@@ -12479,8 +12504,8 @@
 /turf/open/floor/plating/granite,
 /area/vtm/interior/millennium_tower)
 "hff" = (
-/mob/living/carbon/human/npc/hobo,
-/turf/open/floor/city/circled/large,
+/obj/structure/noticeboard/directional/north,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "hfi" = (
 /obj/machinery/light/directional/west,
@@ -12601,12 +12626,11 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility)
 "hiR" = (
-/obj/structure/table,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
-/obj/machinery/light/warm/directional/north,
-/turf/open/floor/concrete/pavement,
+/obj/structure/table,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "hiW" = (
 /obj/structure/table,
@@ -13410,8 +13434,8 @@
 /turf/open/openspace,
 /area/vtm)
 "hJw" = (
-/obj/machinery/light/small/broken/directional/north,
 /obj/structure/chair/pew/right,
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/church/staff)
 "hJE" = (
@@ -14250,12 +14274,11 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop)
 "ifx" = (
-/obj/structure/fluff/shower_drain,
-/obj/machinery/shower/directional/west,
-/obj/effect/turf_decal/siding{
-	dir = 9
-	},
-/turf/open/floor/city/toilet/large,
+/obj/structure/closet/cabinet,
+/obj/item/clothing/suit/vampire/coat/alt,
+/obj/item/clothing/suit/vampire/coat,
+/obj/item/clothing/suit/vampire/coat/winter,
+/turf/open/floor/carpet,
 /area/vtm/interior/church/staff)
 "ifH" = (
 /obj/structure/chair/sofa/corp/right{
@@ -14529,8 +14552,12 @@
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/millennium_tower/f2)
 "imZ" = (
-/obj/structure/filingcabinet/chestdrawer,
-/turf/open/floor/carpet/royalblack,
+/obj/structure/closet/cabinet,
+/obj/item/clothing/head/chaplain/bishopmitre,
+/obj/item/clothing/suit/chaplainsuit/bishoprobe,
+/obj/item/clothing/suit/vampire/imam,
+/obj/item/clothing/suit/vampire/orthodox,
+/turf/open/floor/city/church,
 /area/vtm/interior/church/staff)
 "ins" = (
 /obj/item/knife/vamp{
@@ -14692,10 +14719,12 @@
 /turf/open/floor/carpet/darkpack/blacksilver,
 /area/vtm/interior/apartment)
 "irA" = (
-/obj/structure/chair/sofa/corp/right{
-	dir = 8
+/obj/structure/chair/sofa/corp/left{
+	dir = 8;
+	pixel_x = 0;
+	pixel_y = 0
 	},
-/turf/open/floor/wood/ornate,
+/turf/open/floor/city/church,
 /area/vtm/interior/church/staff)
 "irR" = (
 /obj/effect/turf_decal/bordur/inverse{
@@ -15449,9 +15478,11 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/museum)
 "iSO" = (
-/obj/structure/bed,
-/obj/item/bedsheet/medical,
-/turf/open/floor/city/circled/large,
+/obj/machinery/light/warm/directional/north,
+/obj/structure/chair/sofa/city_bench/wood/right{
+	dir = 4
+	},
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "iSP" = (
 /obj/effect/turf_decal/siding/white/corner{
@@ -17070,8 +17101,10 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
 "jOJ" = (
-/obj/machinery/light/warm/directional/west,
-/turf/open/floor/carpet,
+/obj/structure/chair/comfy/darkpack{
+	dir = 4
+	},
+/turf/open/floor/city/plating_mono,
 /area/vtm/interior/church/staff)
 "jOL" = (
 /obj/structure/table/wood/fancy/royalblack,
@@ -17953,7 +17986,7 @@
 /area/vtm)
 "kox" = (
 /obj/structure/railing,
-/turf/open/floor/carpet,
+/turf/open/floor/city/plating_mono,
 /area/vtm/interior/church/staff)
 "koB" = (
 /obj/structure/sink/directional/east{
@@ -18002,15 +18035,12 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/voivodate/sanctum)
 "kph" = (
+/obj/structure/filingcabinet/chestdrawer{
+	pixel_x = 6;
+	pixel_y = 98
+	},
+/obj/item/flashlight/lamp/green,
 /obj/structure/table/wood/fancy/black,
-/obj/item/folder/red{
-	pixel_x = -5;
-	pixel_y = 0
-	},
-/obj/item/folder/blue{
-	pixel_x = 3;
-	pixel_y = 5
-	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/church/staff)
 "kpl" = (
@@ -18556,7 +18586,9 @@
 /area/vtm/outside/financialdistrict)
 "kFg" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/paper_bin,
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
 /obj/item/pen/fourcolor,
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/church/staff)
@@ -18809,10 +18841,8 @@
 /turf/open/floor/iron/grimy,
 /area/vtm/interior/millennium_tower/f4)
 "kPa" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 10
-	},
-/turf/open/floor/concrete/pavement,
+/obj/machinery/light/warm/directional/west,
+/turf/open/floor/city/church,
 /area/vtm/interior/church/staff)
 "kPE" = (
 /obj/structure/coclock,
@@ -22446,7 +22476,10 @@
 /turf/open/floor/city/clinic,
 /area/vtm/interior/vet)
 "mUi" = (
-/obj/machinery/iv_drip,
+/obj/structure/extinguisher_cabinet/directional/west,
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 8
+	},
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/church/staff)
 "mUD" = (
@@ -23743,14 +23776,13 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/mallunderground)
 "nLh" = (
-/obj/structure/mirror/directional/north{
-	pixel_y = 35
+/obj/structure/bed,
+/obj/effect/spawner/random/bedsheet,
+/obj/effect/decal/carpet{
+	pixel_x = 11;
+	pixel_y = 28
 	},
-/obj/structure/toilet{
-	dir = 8
-	},
-/obj/structure/sink/directional/south,
-/turf/open/floor/city/toilet/large,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "nLk" = (
 /obj/effect/turf_decal/siding/white{
@@ -24524,16 +24556,11 @@
 /turf/open/floor/carpet/black,
 /area/vtm/interior/laundromat)
 "oih" = (
-/obj/item/claymore/longsword{
-	pixel_y = 3;
-	anchored = 1;
-	name = "Crusader's longsword";
-	desc = "A sword that belonged to a famous knight Bartholomew that participated in the Crusades, kept as a holy relic by the Catholic Church.";
-	pixel_x = 0
+/obj/structure/filingcabinet{
+	pixel_x = -10;
+	pixel_y = 1
 	},
-/obj/machinery/light/warm/directional/north,
-/obj/structure/table/modern,
-/turf/open/floor/wood/ornate,
+/turf/open/floor/city/church,
 /area/vtm/interior/church/staff)
 "oio" = (
 /obj/structure/chair/stool/bar/darkpack/red,
@@ -24568,7 +24595,9 @@
 /area/vtm/outside/unionsquare)
 "oiL" = (
 /obj/structure/table/wood,
-/obj/item/paper_bin,
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
 /obj/item/pen/fourcolor,
 /turf/open/floor/carpet,
 /area/vtm/interior/church/staff)
@@ -26359,9 +26388,9 @@
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/clinic)
 "phG" = (
-/obj/structure/bookcase/random/religion,
-/obj/machinery/light/warm/directional/north,
-/turf/open/floor/wood/ornate,
+/obj/structure/bed,
+/obj/effect/spawner/random/bedsheet,
+/turf/open/floor/carpet,
 /area/vtm/interior/church/staff)
 "pid" = (
 /obj/machinery/light/directional/east,
@@ -26974,10 +27003,8 @@
 /turf/open/floor/plating/rough,
 /area/vtm/outside/financialdistrict)
 "pzW" = (
-/obj/structure/vampdoor/wood{
-	dir = 4
-	},
-/turf/open/floor/city/circled/large,
+/obj/machinery/light/cold/directional/north,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "pAc" = (
 /obj/structure/sink/directional/west,
@@ -27054,10 +27081,6 @@
 /obj/effect/decal/support,
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/clinic)
-"pCU" = (
-/obj/structure/sink/directional/west,
-/turf/open/floor/city/bacotell,
-/area/vtm/interior/church/staff)
 "pDl" = (
 /obj/structure/vampdoor/reinf,
 /turf/open/floor/plating/rough/cave{
@@ -29672,8 +29695,8 @@
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
 "qXo" = (
-/obj/machinery/light/cold/directional/north,
-/turf/open/floor/city/toilet/large,
+/obj/structure/table,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "qXt" = (
 /obj/effect/turf_decal/bordur/corner{
@@ -30072,13 +30095,16 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/wyrm_corrupted)
 "rhr" = (
-/obj/item/vampirebook/bible{
+/obj/structure/table/modern,
+/obj/item/claymore/longsword{
 	pixel_y = 3;
 	anchored = 1;
+	name = "Crusader's longsword";
+	desc = "A sword that belonged to a famous knight Bartholomew that participated in the Crusades, kept as a holy relic by the Catholic Church.";
 	pixel_x = 0
 	},
-/obj/structure/table/modern,
-/turf/open/floor/wood/ornate,
+/obj/structure/table/wood/fancy/black,
+/turf/open/floor/city/church,
 /area/vtm/interior/church/staff)
 "rhu" = (
 /obj/effect/turf_decal/bordur{
@@ -30590,11 +30616,13 @@
 /turf/open/floor/city/clinic,
 /area/vtm/interior/millennium_tower)
 "rvt" = (
-/obj/structure/mop_bucket,
-/obj/item/mop,
-/obj/item/reagent_containers/cup/bucket,
-/obj/machinery/light/cold/directional/west,
-/turf/open/floor/city/toilet/large,
+/obj/structure/table/wood,
+/obj/structure/fluff/tv/news{
+	pixel_x = -15;
+	pixel_y = 13;
+	dir = 1
+	},
+/turf/open/floor/carpet,
 /area/vtm/interior/church/staff)
 "rvy" = (
 /obj/effect/turf_decal/siding/white{
@@ -30758,8 +30786,11 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/financialdistrict)
 "rzd" = (
-/obj/item/kirbyplants/organic/plant12,
-/turf/open/floor/carpet,
+/obj/item/kirbyplants/organic/plant12{
+	pixel_x = -5;
+	pixel_y = 59
+	},
+/turf/open/floor/city/plating_mono,
 /area/vtm/interior/church/staff)
 "rzt" = (
 /obj/effect/landmark/start/darkpack/citizen/citizen,
@@ -31102,7 +31133,13 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/ghetto)
 "rKw" = (
-/turf/open/floor/wood/ornate,
+/obj/structure/chair/sofa/corp/right{
+	dir = 8;
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/machinery/light/warm/directional/east,
+/turf/open/floor/city/church,
 /area/vtm/interior/church/staff)
 "rKK" = (
 /obj/structure/closet/crate{
@@ -31247,9 +31284,8 @@
 /area/vtm/interior/coffee)
 "rOW" = (
 /obj/structure/coclock,
-/obj/item/bedsheet/medical,
-/obj/structure/bed,
 /obj/machinery/light/cold/directional/north,
+/obj/machinery/iv_drip,
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/church/staff)
 "rPd" = (
@@ -33620,10 +33656,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/voivodate/sanctum)
 "tgG" = (
-/obj/structure/closet/cabinet,
-/obj/effect/spawner/random/bedsheet/any,
-/obj/effect/spawner/random/bedsheet/any,
-/obj/effect/spawner/random/bedsheet/any,
+/obj/structure/vampdoor/wood,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "tgI" = (
@@ -33681,10 +33714,9 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/tattoo)
 "tiK" = (
-/obj/structure/chair/sofa/corp/left{
-	dir = 8
-	},
-/turf/open/floor/wood/ornate,
+/obj/structure/table/wood,
+/obj/structure/table/wood/fancy/black,
+/turf/open/floor/city/church,
 /area/vtm/interior/church/staff)
 "tiS" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
@@ -34112,10 +34144,6 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/radio)
-"tvk" = (
-/obj/effect/decal/painting/second,
-/turf/closed/wall/vampwall/bar,
-/area/vtm/interior/church/staff)
 "tvR" = (
 /obj/structure/curtain/bounty{
 	icon_state = "bounty-closed";
@@ -34249,9 +34277,13 @@
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/coffee)
 "tzL" = (
-/obj/structure/table/countertop/fastfood/addon1,
-/obj/machinery/light/warm/directional/west,
-/turf/open/floor/plastic,
+/obj/structure/vampdoor/wood{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/door/access/church,
+/obj/effect/mapping_helpers/door/lock_difficulty/seven,
+/obj/effect/mapping_helpers/door/lock,
+/turf/open/floor/wood/ornate,
 /area/vtm/interior/church/staff)
 "tzR" = (
 /obj/structure/closet/cardboard,
@@ -36188,15 +36220,6 @@
 	},
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/shop/bacotell)
-"uBg" = (
-/obj/structure/vampdoor/wood{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/door/access/church,
-/obj/effect/mapping_helpers/door/lock,
-/obj/effect/mapping_helpers/door/lock_difficulty/seven,
-/turf/open/floor/carpet,
-/area/vtm/interior/church/staff)
 "uBn" = (
 /obj/effect/decal/wallpaper/grey,
 /turf/closed/wall/vampwall/brick,
@@ -36641,10 +36664,8 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/bianchiBank)
 "uOw" = (
-/obj/structure/chair/comfy/darkpack{
-	dir = 4
-	},
-/turf/open/floor/carpet/royalblack,
+/obj/structure/dresser,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "uOB" = (
 /obj/effect/decal/cleanable/trash,
@@ -37952,10 +37973,9 @@
 /turf/closed/wall/vampwall/brick_old,
 /area/vtm/interior)
 "vCJ" = (
-/obj/structure/vampdoor/wood{
-	dir = 4
-	},
-/turf/open/floor/city/toilet/large,
+/obj/machinery/light/warm/directional/west,
+/obj/structure/table/countertop/fastfood/addon1,
+/turf/open/floor/city/bacotell,
 /area/vtm/interior/church/staff)
 "vDc" = (
 /obj/effect/turf_decal/bordur/corner{
@@ -38027,8 +38047,10 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior)
 "vEh" = (
-/obj/structure/bed,
-/obj/effect/spawner/random/bedsheet/any,
+/obj/structure/mop_bucket,
+/obj/item/reagent_containers/cup/bucket,
+/obj/item/mop,
+/obj/machinery/light/warm/directional/north,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "vEU" = (
@@ -38365,7 +38387,11 @@
 /turf/open/floor/city/clinic,
 /area/vtm/interior/apartment)
 "vQu" = (
-/obj/machinery/processor,
+/obj/machinery/processor{
+	pixel_x = 0;
+	pixel_y = 7
+	},
+/obj/structure/table,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/church/staff)
 "vQT" = (
@@ -38661,7 +38687,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/vet)
 "wax" = (
-/obj/machinery/light/small/broken/directional/north,
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/church/staff)
 "wba" = (
@@ -39395,13 +39421,8 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/endron_facility/restricted)
 "wxe" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 8
-	},
-/obj/structure/chair/sofa/city_bench/wood/left{
-	dir = 4
-	},
-/turf/open/floor/concrete/pavement,
+/obj/structure/chair/sofa/corp/right,
+/turf/open/floor/carpet,
 /area/vtm/interior/church/staff)
 "wxo" = (
 /obj/structure/table/wood/fancy/royalblack,
@@ -39636,8 +39657,8 @@
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm)
 "wDP" = (
-/obj/structure/dresser,
-/obj/machinery/light/warm/directional/south,
+/obj/structure/bed,
+/obj/effect/spawner/random/bedsheet,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "wDS" = (
@@ -41054,8 +41075,11 @@
 /turf/closed/wall/vampwall/market,
 /area/vtm/interior/shop/bacotell)
 "xvc" = (
-/obj/item/kirbyplants/organic/plant5,
-/turf/open/floor/carpet,
+/obj/item/kirbyplants/organic/plant5{
+	pixel_x = -10;
+	pixel_y = -18
+	},
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "xvj" = (
 /obj/effect/turf_decal/bordur/corner,
@@ -41213,14 +41237,10 @@
 /turf/open/floor/carpet/darkpack/cyan,
 /area/vtm/interior/clinic)
 "xBi" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
-	},
-/obj/structure/coclock,
-/obj/structure/chair/sofa/city_bench/wood/left{
+/obj/structure/chair/sofa/city_bench/wood/right{
 	dir = 8
 	},
-/turf/open/floor/concrete/pavement,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "xBs" = (
 /obj/machinery/iv_drip,
@@ -42066,14 +42086,12 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/chinatown)
 "xYC" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
-	},
-/obj/structure/closet/crate/bin{
-	pixel_x = 3;
-	pixel_y = 6
-	},
-/turf/open/floor/concrete/pavement,
+/obj/structure/closet/cabinet,
+/obj/effect/spawner/random/bedsheet,
+/obj/effect/spawner/random/bedsheet,
+/obj/effect/spawner/random/bedsheet,
+/obj/effect/spawner/random/bedsheet,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "xYD" = (
 /obj/structure/table/countertop/bubway,
@@ -42129,9 +42147,8 @@
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/ghetto)
 "xZX" = (
-/obj/structure/chair/sofa/corp/left{
-	dir = 8
-	},
+/obj/structure/table/wood,
+/obj/machinery/light/warm/directional/east,
 /turf/open/floor/carpet,
 /area/vtm/interior/church/staff)
 "yaz" = (
@@ -46704,10 +46721,10 @@ gWT
 bpB
 oaQ
 evs
-aCD
-sYZ
-sYZ
-cBX
+yaB
+kPa
+yaB
+yaB
 jdk
 "}
 (41,1,1) = {"
@@ -46811,10 +46828,10 @@ xPy
 xPy
 oaQ
 rhr
-rKw
-sYZ
-uOw
-imZ
+snC
+jOJ
+snC
+yaB
 jdk
 "}
 (42,1,1) = {"
@@ -46905,23 +46922,23 @@ kzb
 hxj
 jdk
 gvm
-qEl
 sSb
-qEl
+mUi
 lgX
+iSO
 eEh
-wxe
-kPa
+tXu
 jdk
+cXH
 jJd
 aRE
 rdb
 qcO
 oih
-rKw
+sYZ
 kFg
 kph
-dcP
+yaB
 jdk
 "}
 (43,1,1) = {"
@@ -47013,22 +47030,22 @@ hxj
 jdk
 oaa
 qEl
-hff
 qEl
 lgX
+qXo
 hiR
-aKa
-gKr
-jdk
-cXH
+tXu
+vCJ
+tAe
+tAe
 tAe
 sWe
 qcO
 eOY
-rKw
+sYZ
 aGD
 aGD
-aGD
+yaB
 jdk
 "}
 (44,1,1) = {"
@@ -47119,23 +47136,23 @@ kzb
 hxj
 jdk
 aBg
-jdk
-jdk
-dnc
+qEl
+qEl
 lgX
-xBi
 fMg
+xBi
+tXu
 gKr
-tzL
+tAe
 tAe
 xFv
 cek
 qcO
 eOY
-rKw
-rKw
-rKw
-rKw
+sYZ
+sYZ
+sYZ
+yaB
 jdk
 "}
 (45,1,1) = {"
@@ -47226,23 +47243,23 @@ kzb
 hxj
 jdk
 rOW
-mUi
 qEl
 qEl
-lgX
-xYC
-bFC
+aKa
+tXu
+tXu
+cIl
 gKr
-jdk
-pCU
+tAe
+tAe
 tAe
 vQu
 qcO
-phG
-rKw
-rKw
-rKw
-rKw
+eOY
+snC
+snC
+snC
+aCD
 jdk
 "}
 (46,1,1) = {"
@@ -47332,21 +47349,21 @@ qTM
 kzb
 hxj
 jdk
-iSO
-qEl
-qEl
-qEl
+jdk
+jdk
+jdk
 lgX
-vkr
+bPB
+tXu
+gjp
 jdk
-jdk
-jdk
-jdk
-vkr
-jdk
+tAe
+gQx
+tAe
+cBX
 jdk
 qcO
-eOY
+dcP
 rKw
 irA
 tiK
@@ -47439,22 +47456,22 @@ qTM
 kzb
 hxj
 jdk
-jdk
-jdk
-jdk
-pzW
+bFC
+dnc
 lgX
 tXu
+tXu
+tXu
+tXu
 jdk
-rvt
-fDF
-qcO
-xXu
-jOJ
-gQx
+jdk
+jdk
+vkr
+jdk
 jdk
 qcO
-uBg
+tzL
+jdk
 jdk
 jdk
 jdk
@@ -47545,23 +47562,23 @@ aaP
 lFH
 kzb
 hxj
+jdk
+fDF
+uND
 lgX
-vEh
-vEh
-vEh
+hff
 tXu
 tXu
 tXu
-jdk
-vCJ
-jdk
-tvk
-xXu
-xXu
-xXu
-xXu
-xXu
-xXu
+tXu
+tXu
+wcH
+tXu
+tXu
+tXu
+tXu
+tXu
+snC
 kox
 euo
 jdk
@@ -47652,24 +47669,24 @@ aaP
 lFH
 kzb
 hxj
-lgX
+jdk
 cle
+uND
+tgG
 tXu
+cIl
 tXu
-tXu
-tXu
-tXu
-tXu
+nLh
 tXu
 tXu
 pZr
-xXu
-xXu
-xXu
-xXu
-xXu
-xXu
-xXu
+tXu
+tXu
+tXu
+tXu
+tXu
+snC
+snC
 baL
 jdk
 "}
@@ -47760,20 +47777,20 @@ lFH
 kzb
 uGT
 lgX
-vEh
-vEh
-vEh
+jdk
+jdk
+lgX
+pzW
+wDP
 tXu
 tXu
-gjp
+tXu
+tXu
 jdk
-vCJ
-jdk
-wcH
-xXu
+wxe
 oiL
-fpX
 xXu
+fpX
 xvc
 hco
 aSg
@@ -47867,20 +47884,20 @@ lFH
 kzb
 oNK
 lgX
+xYC
+tXu
+tXu
+tXu
 tXu
 cIl
-tXu
-cIl
-tXu
-tgG
+phG
+xXu
+phG
 jdk
-qXo
-uND
-qcO
 cSj
 xZX
-cSj
-xZX
+xXu
+rvt
 wwe
 wwe
 wwe
@@ -47975,13 +47992,13 @@ kzb
 hxj
 lgX
 vEh
-vEh
-vEh
 tXu
 tXu
+uOw
 wDP
-jdk
-nLh
+tXu
+xXu
+xXu
 ifx
 wwe
 wwe
@@ -58367,7 +58384,7 @@ tjb
 vIS
 uXh
 sli
-yaB
+imZ
 snC
 fbr
 xis
@@ -70142,7 +70159,7 @@ gnB
 epL
 noo
 snC
-bPB
+snC
 jBE
 "}
 (50,1,3) = {"
